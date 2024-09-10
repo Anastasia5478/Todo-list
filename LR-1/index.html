@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список задач</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/add-task.css">
+    <link rel="stylesheet" href="styles/task.css">
+    <link rel="stylesheet" href="styles/task-area.css">
+    <link rel="stylesheet" href="styles/clear-button.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Список задач</h1>
+        </header>
+        <section class="new-task">
+            <input type="text" placeholder="Название задачи...">
+            <button class="add-task-btn">+ Добавить</button>
+        </section>
+        <div class="task-container">
+            <div class="task-area backlog">
+                <h2>Бэклог</h2>
+                <div class="task">Выучить JS</div>
+                <div class="task">Выучить React</div>
+                <div class="task">Сделать домашку</div>
+            </div>
+            <div class="task-area in-progress">
+                <h2>В процессе</h2>
+                <div class="task">Выпить смузи</div>
+                <div class="task">Попить воды</div>
+            </div>
+            <div class="task-area done">
+                <h2>Готово</h2>
+                <div class="task">Позвонить маме</div>
+                <div class="task">Погладить кота</div>
+            </div>
+            <div class="task-area trash">
+                <h2>Корзина</h2>
+                <div class="task">Сходить погулять</div>
+                <div class="task">Прочитать Войну и Мир</div>
+            </div>
+        </div>
+        <button class="clear-btn">Очистить</button>
+    </div>
+</body>
+</html>

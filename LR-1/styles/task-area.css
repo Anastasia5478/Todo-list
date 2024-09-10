@@ -1,0 +1,37 @@
+.task-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.task-area {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.task-area h2 {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.task-area.backlog h2 {
+    background-color: #9e9e9e;
+}
+
+.task-area.in-progress h2 {
+    background-color: #b0e0ff;
+}
+
+.task-area.done h2 {
+    background-color: #b0ffe0;
+}
+
+.task-area.trash h2 {
+    background-color: #ffb0b0;
+}
